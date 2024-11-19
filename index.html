@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cards{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(221, 233, 156);
+    }
+    .card1{
+background-color: rgb(127, 150, 47);
+width: 30vw;
+height: 80vh;
+display: flex;
+align-items: center;
+padding-top: 40px;
+flex-direction: column;
+margin: auto;
+box-shadow: 0px 3px 10px 0px black inset, 0px 5px 10px 0px rgb(0, 0, 0);
+    }
+    .card2{
+background-color: rgb(45, 221, 192);
+width: 30vw;
+height: 80vh;
+display: flex;
+align-items: center;
+padding-top: 40px;
+flex-direction: column;
+margin: auto;
+box-shadow: 0px 3px 10px 0px black inset, 0px 5px 10px 0px rgb(0, 0, 0);
+    }
+    img{
+        width: 20vw;
+        height: 20vh;
+        border-radius: 100px;
+    }
+    span{
+        font-weight: 600;
+        color: rgb(155, 32, 32);
+    }
+    p{
+        padding: 10px;
+    }
+    .description{
+        display: none;
+        background-color: rgb(142, 184, 66);
+        width: 27vw;
+        height: 35vh;
+        overflow-y: scroll;
+        padding: 5px 5px;
+        box-shadow: 0px 5px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .description2{
+        display: none;
+        background-color: rgb(43, 131, 131);
+        width: 27vw;
+        height: 35vh;
+        overflow-y: scroll;
+        padding: 5px 5px;
+        box-shadow: 0px 5px 8px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    p:hover + .description{
+        display: block;
+    }
+    p:hover + .description2{
+        display: block;
+    }
+</style>
+<body>
+    <div class="cards">
+    <div class="card1">
+<img  src="./pic1.jpeg" alt="">
+<h1>Shershaah</h1>
+<p>This Picture describes.....<span>move your mouse here to view</span></p>
+<div class="description">
+    The image captures a powerful and inspiring moment of a young soldier standing amidst a military camp, rallying his comrades before an impending battle. Dressed in a rugged combat uniform, he raises his right arm confidently, showcasing a sturdy wristwatch. His expression is dynamic and full of passion, with his mouth open in a loud, spirited shout that resonates with the energy of leadership. His stance exudes determination, as he motivates the soldiers gathered around him, creating an atmosphere of unity and readiness.
+    The background sets the scene with rugged mountains and tents, emphasizing the challenging environment of the camp. The lighting enhances the mood, with soft natural tones complementing the soldier's intense resolve. The overall tone of the image is one of camaraderie, strength, and the unwavering spirit of a leader preparing his team for a mission.
+    The background sets the scene with rugged mountains and tents, emphasizing the challenging environment of the camp. The lighting enhances the mood, with soft natural tones complementing the soldier's intense resolve. The overall tone of the image is one of camaraderie, strength, and the unwavering spirit of a leader preparing his team for a mission.
+</div>
+    </div>
+    
+
+
+    <div class="card2">
+        <img  src="./img1.jpg" alt="">
+        <h1>Technology</h1>
+        <p>This Picture describes.....<span>move your mouse here to view</span></p>
+        <div class="description2">
+            The cartoon depicts a vivid and symbolic rescue scene. A distressed student is shown falling into a vast ocean, filled with colorful and chaotic icons of mobile apps, representing the overwhelming distractions of the digital world. The student appears anxious and helpless, struggling to stay afloat.
+
+In a heroic act, a large, anthropomorphic book with arms and a friendly, determined face pushes the student up by their stomach, preventing them from sinking deeper into the ocean. The book stands as a metaphorical savior, symbolizing the power of knowledge and education to guide individuals out of the chaos of modern distractions.
+
+The scene is lively and colorful, with a strong emotional undertone, emphasizing the importance of traditional learning in overcoming the overpowering influence of digital distractions.
+        </div>
+            </div>
+            
+        </div>
+</body>
+</html>
